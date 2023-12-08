@@ -58,12 +58,10 @@ const NavBar: React.FC = () => {
         </NavbarContent>
 
         <NavbarContent
-          className={`hidden sm:flex gap-4 ${
-            !path.includes("/sign") ? "" : "invisible"
-          }`}
+          className={`hidden sm:flex gap-4`}
           justify="center"
         >
-          <NavbarItem isActive={path === "/" ? true : false}>
+          <NavbarItem >
 
               <ScrollLink 
               to="aboutMe" 
@@ -74,7 +72,7 @@ const NavBar: React.FC = () => {
               About Me
               </ScrollLink>
           </NavbarItem>
-          <NavbarItem isActive={path === "/savedrecipes" ? true : false}>
+          <NavbarItem >
 
               <ScrollLink 
               to="projects" 
@@ -86,7 +84,7 @@ const NavBar: React.FC = () => {
               </ScrollLink>
 
           </NavbarItem>
-          <NavbarItem isActive={path === "/search" ? true : false}>
+          <NavbarItem >
 
               <ScrollLink 
               to="contact" 
@@ -105,7 +103,7 @@ const NavBar: React.FC = () => {
           <FontAwesomeIcon icon={faGithub} size="2x" />
         </a>
           </NavbarItem>
-          <NavbarItem>
+          <NavbarItem className=" hidden sm:block">
           <a href="https://www.linkedin.com/in/charlotte-greenaway-777140183/" target="_blank" rel="noopener noreferrer" className="text-black hover:text-grey-400 mx-4">
           <FontAwesomeIcon icon={faLinkedin} size="2x" />
         </a>
