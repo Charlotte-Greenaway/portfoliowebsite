@@ -122,6 +122,7 @@ const NavBar: React.FC = () => {
               to={item.navLink} 
               smooth={true} 
               duration={500} 
+                   onClick={()=>setIsMenuOpen(false)}
               >
                 {item.navItem}
                 </ScrollLink>
