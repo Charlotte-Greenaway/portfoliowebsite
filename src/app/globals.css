@@ -2,26 +2,62 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+body{
+    scroll-behavior: smooth;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+.relative.w-full.overflow-visible{
+    width:fit-content;
+    margin:auto
+}
+.onHover {
+    transition: transform 1s ease; /* Apply transition to the transform property */
   }
+  
+  .onHover:hover {
+    transform: scale(1.05); /* Scale on hover */
+  }
+/*make item fit content width*/
+.fit-content{
+    width:fit-content
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+
+/*skills page*/
+.outlineskill {
+    padding:0 2rem;
+    width: 17rem;
+    display: flex;
+    flex-direction: column;
+  }
+.skillscontainer {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    font-family: "Poppins",Sans-serif;
+    justify-content: center;
+    overflow-x: hidden;
+    max-width:100%
+  }
+.outlineskill p{
+    border-left: 1px solid rgb(133, 132, 132);
+    padding-left: 5%;
+    font-family: "Courier New", monospace;
+}
+.tagtext{
+    margin-left: 1em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: "Courier New", monospace;
+} 
+
+.skillscontainer h4{
+    background-image: linear-gradient(transparent 50%, #8FC1E3 70%);
+    width: fit-content;
+    margin: 1em 0;
+    display: inline;
+}
+.skillshead{
+    display: flex;
+    justify-content: space-evenly;
 }
