@@ -14,10 +14,8 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 import { Link as ScrollLink } from 'react-scroll';
 import React, { useState } from "react";
-import { usePathname } from "next/navigation";
 
 const NavBar: React.FC = () => {
-  const path = usePathname();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const menuItems =  [
         {
