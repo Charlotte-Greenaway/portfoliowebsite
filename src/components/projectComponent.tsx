@@ -32,7 +32,7 @@ const ProjectComponent: React.FC<ProjectComponentProps> = ({
           <CardBody className="overflow-visible py-2">
             <Image
               alt="Card background"
-              className="rounded-xl h-[150px] mx-auto fit-content pic"
+              className="rounded-xl h-[150px] mx-auto fit-content w-auto pic"
               src={logo}
               height={220}
               style={{
