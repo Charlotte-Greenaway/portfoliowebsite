@@ -38,6 +38,7 @@ const NavBar: React.FC = () => {
   return (
     <header className="text-white ">
       <Navbar
+        isMenuOpen={isMenuOpen}
         onMenuOpenChange={setIsMenuOpen}
         className="text-white "
       >
