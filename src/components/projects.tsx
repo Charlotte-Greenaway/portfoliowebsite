@@ -10,7 +10,7 @@ const Projects = () => {
       title: "Dash Dish",
       logo: dashdish.src,
       summary:"An AI powered cookbook",
-      link:"https://github.com/Charlotte-Greenaway/DashDish",
+      link:"https://dash-dish.vercel.app/",
       languages:["next","openai","mongo"]
     },
     {
