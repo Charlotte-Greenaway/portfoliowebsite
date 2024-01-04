@@ -11,7 +11,7 @@ const Projects = () => {
       logo: dashdish.src,
       summary:"An AI powered cookbook",
       link:"https://dash-dish.vercel.app/",
-      languages:["next","openai","mongo"]
+      languages:["next","openai","mongo","tailwind"]
     },
     {
       title: "Solar Traveller",
@@ -28,11 +28,11 @@ const Projects = () => {
       languages:["react","node", "mongo"]
     },
     {
-      title: "PB Shaun",
+      title: "First Look",
       logo: pbshaun.src,
-      summary:"A photography services website",
-      link:"https://github.com/Charlotte-Greenaway/PhotographyByShaun",
-      languages:["react"]
+      summary:"Wedding photography site",
+      link:"https://github.com/Charlotte-Greenaway/flphotography",
+      languages:["react","tailwind"]
     },
   ];
   return (
