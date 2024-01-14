@@ -3,9 +3,16 @@ import dashdish from '@/images/dashdish.png';
 import pbshaun from '@/images/pb.jpg';
 import solar from '@/images/solar.jpg';
 import snap from '@/images/snaptalk.png';
-
+import autohub from '@/images/autohub.png'
 const Projects = () => {
   const projectList = [
+    {
+      title: "Autohub",
+      logo: autohub.src,
+      summary:"Dealer Management System",
+      link:"https://github.com/Charlotte-Greenaway/Autohub",
+      languages:["next","tailwind", "sqlite"]
+    },
     {
       title: "Dash Dish",
       logo: dashdish.src,
