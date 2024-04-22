@@ -7,23 +7,23 @@ import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 export default function Home() {
   return (
     <main>
-      <div className="banner mx-auto fit-content my-10 ">
+      <div className="banner mx-auto fit-content my-10 px-1 md:px-0">
         <h1 className="mx-auto fit-content text-4xl font-bold text-center">
-          Junior Developer
+          Dev Ops Executive
         </h1>
         <h2 className="mx-auto fit-content text-2xl font-bold m-1 text-center">
           Driven to learn and create beautiful designs.
         </h2>
         <img src={Avatar.src} alt="avatar" className="mx-auto h-60 my-5" />
       </div>
-      <div className="max-w-screen  bg-[#75BE90]" id="aboutMe">
+      <div className="max-w-screen  bg-[#75BE90] px-1 md:px-0" id="aboutMe">
         <div className="text-white mx-auto pb-10  max-w-[900px]">
           <h2 className="text-2xl py-6 fit-content mx-auto font-bold">
             Hey I'm Charlotte!
           </h2>
           <p className="text-white text-center text-2xl">
             {" "}
-            Devon-based junior web developer skilled in React, Node.js, and
+            Devon-based dev ops executive skilled in React, Node.js, and
             Next.js. Proficient with Tailwind CSS, Bootstrap, MongoDB, and
             exploring automation with Playwright in Node.js. Eager to contribute
             and passionate about crafting seamless web experiences.

@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import NavBar from '@/components/navbar';
 import UILibrary from '@/providers/UILibrary';
+import TopButton from '@/components/TopButton';
 
 
 export const metadata: Metadata = {
@@ -19,7 +20,7 @@ export default function RootLayout({
     
     <html lang="en">
 
-      <body><UILibrary><NavBar/>{children}</UILibrary></body>
+      <body><UILibrary><NavBar/>{children}<TopButton/></UILibrary></body>
 
     </html>
   )

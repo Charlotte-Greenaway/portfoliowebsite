@@ -27,13 +27,13 @@ const Projects = () => {
       link:"https://github.com/Charlotte-Greenaway/solarsystem",
       languages:["react","aframe"]
     },
-    {
-      title: "Snap Talk",
-      logo: snap.src,
-      summary:"Instant messaging service",
-      link:"https://github.com/Charlotte-Greenaway/SnapTalk",
-      languages:["react","node", "mongo"]
-    },
+    // {
+    //   title: "Snap Talk",
+    //   logo: snap.src,
+    //   summary:"Instant messaging service",
+    //   link:"https://github.com/Charlotte-Greenaway/SnapTalk",
+    //   languages:["react","node", "mongo"]
+    // },
     {
       title: "First Look",
       logo: pbshaun.src,

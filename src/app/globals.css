@@ -59,3 +59,13 @@
     display: flex;
     justify-content: space-evenly;
 }
+
+
+.svg-fill {
+  fill: #000000; /* Default fill color */
+  transition: all 0.5s ease;
+}
+.hover-container:hover .svg-fill {
+  fill: #FFFFFF; /* Fill color on hover */
+  transition: all 0.5s ease;
+}
