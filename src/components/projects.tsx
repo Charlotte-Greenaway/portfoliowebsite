@@ -24,7 +24,7 @@ const Projects = () => {
       title: "Solar Traveller",
       logo: solar.src,
       summary:"A 3D trip into space",
-      link:"https://github.com/Charlotte-Greenaway/solarsystem",
+      link:"https://solartraveller.charlotte-greenaway.com",
       languages:["react","aframe"]
     },
     // {
@@ -38,7 +38,7 @@ const Projects = () => {
       title: "First Look",
       logo: pbshaun.src,
       summary:"Wedding photography site",
-      link:"https://github.com/Charlotte-Greenaway/flphotography",
+      link:"https://firstlook.charlotte-greenaway.com",
       languages:["react","tailwind"]
     },
   ];
