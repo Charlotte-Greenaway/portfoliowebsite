@@ -1,6 +1,5 @@
-import Avatar from "@/images/avatar.jpg";
-import Skills from "@/components/skills";
-import Projects from "@/components/projects";
+import Skills from "@/_components/skills";
+import Projects from "@/_components/projects";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
@@ -14,7 +13,7 @@ export default function Home() {
         <h2 className="mx-auto fit-content text-2xl font-bold m-1 text-center">
           Driven to learn and create beautiful designs.
         </h2>
-        <img src={Avatar.src} alt="avatar" className="mx-auto h-60 my-5" />
+        <img src={"/images/avatar.jpg"} alt="avatar" className="mx-auto h-60 my-5" />
       </div>
       <div className="max-w-screen  bg-[#75BE90] px-1 md:px-0" id="aboutMe">
         <div className="text-white mx-auto pb-10  max-w-[900px]">
@@ -24,8 +23,8 @@ export default function Home() {
           <p className="text-white text-center text-2xl">
             {" "}
             Devon-based dev ops executive skilled in React, Node.js, and
-            Next.js. Proficient with Tailwind CSS, Bootstrap, MongoDB, and
-            exploring automation with Playwright in Node.js. Eager to contribute
+            Next.js. Proficient with Tailwind CSS, Bootstrap, postgres, noSQL databases and
+            exploring automation/testing with Playwright in Node.js. Eager to contribute
             and passionate about crafting seamless web experiences.
           </p>
         </div>

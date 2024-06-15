@@ -32,11 +32,12 @@ const ProjectComponent: React.FC<ProjectComponentProps> = ({
           <CardBody className="overflow-visible py-2">
             <Image
               alt="Card background"
-              className="rounded-xl h-[150px] mx-auto fit-content w-auto pic"
+              className="rounded-xl !h-[150px] mx-auto fit-content w-full "
               src={logo}
               height={220}
               style={{
                 filter: title === "Dash Dish" ? "invert(100%)" : "none",
+                height: "170px",
               }}
             />
           </CardBody>

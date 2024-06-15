@@ -1,9 +1,9 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
-import NavBar from '@/components/navbar';
+import NavBar from '@/_components/navbar';
 import UILibrary from '@/providers/UILibrary';
-import TopButton from '@/components/TopButton';
+import TopButton from '@/_components/TopButton';
 
 
 export const metadata: Metadata = {

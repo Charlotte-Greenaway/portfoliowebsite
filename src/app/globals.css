@@ -69,3 +69,20 @@
   fill: #FFFFFF; /* Fill color on hover */
   transition: all 0.5s ease;
 }
+
+.grid-columns{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 640px) {
+  .grid-columns{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1024px) {
+  .grid-columns{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
