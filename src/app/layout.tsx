@@ -1,8 +1,6 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
 import './globals.css'
 import NavBar from '@/_components/navbar';
-import UILibrary from '@/providers/UILibrary';
 import TopButton from '@/_components/TopButton';
 
 
@@ -20,7 +18,7 @@ export default function RootLayout({
     
     <html lang="en">
 
-      <body><UILibrary><NavBar/>{children}<TopButton/></UILibrary></body>
+      <body><NavBar/>{children}<TopButton/></body>
 
     </html>
   )

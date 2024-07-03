@@ -1,10 +1,11 @@
 import {
   Card,
-  CardBody,
+  CardContent,
   CardFooter,
   CardHeader,
-  Image,
-} from "@nextui-org/react";
+} from "@/components/ui/card"
+import Image from "next/image";
+
 interface ProjectComponentProps {
   title: string;
   logo: string;
@@ -22,25 +23,25 @@ const ProjectComponent: React.FC<ProjectComponentProps> = ({
 }) => {
   return (
     <>
-      <Card className="py-4 max-w-[350px] w-1/5 min-w-[250px] m-3 onHover">
+      <Card className="py-4  w-full min-w-[250px] m-3 onHover">
         <a href={link} target="_blank">
           <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
             <p className="text-tiny uppercase font-bold fit-content mx-auto">
               {title}
             </p>
           </CardHeader>
-          <CardBody className="overflow-visible py-2">
+          <CardContent className="overflow-visible py-2">
             <Image
               alt="Card background"
-              className="rounded-xl !h-[150px] mx-auto fit-content w-full "
+              className="object-contain w-auto h-[200px] mx-auto"
               src={logo}
               height={220}
+              width={220}
               style={{
                 filter: title === "Dash Dish" ? "invert(100%)" : "none",
-                height: "170px",
               }}
             />
-          </CardBody>
+          </CardContent>
           <CardFooter className="block">
             <p className="mx-auto fit-content p-2">{summary}</p>
             <div className="flex justify-center">

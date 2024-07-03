@@ -1,7 +1,6 @@
 import Skills from "@/_components/skills";
 import Projects from "@/_components/projects";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { Github, Linkedin } from "lucide-react";
 
 export default function Home() {
   return (
@@ -29,10 +28,10 @@ export default function Home() {
           </p>
         </div>
 
-        <div className="max-w-[1000px] w-3/4 mx-auto bg-white p-3 rounded-xl">
+        <div className="max-w-[1000px] w-11/12 md:w-3/4 mx-auto bg-white p-3 rounded-xl">
           <Skills />
         </div>
-        <div className="max-w-[1000px] w-3/4 mx-auto" id="projects">
+        <div className="max-w-[1000px] w-11/12 md:w-3/4 mx-auto" id="projects">
           <h1 className="text-white text-3xl text-center p-10 font-bold">
             Projects
           </h1>
@@ -65,7 +64,7 @@ export default function Home() {
                   rel="noopener noreferrer"
                   className="text-black hover:text-grey-400 mx-4"
                 >
-                  <FontAwesomeIcon icon={faGithub} size="2x" />
+                  <Github size={24}/>
                 </a>
                 <a
                   href="https://www.linkedin.com/in/charlotte-greenaway-777140183/"
@@ -73,7 +72,7 @@ export default function Home() {
                   rel="noopener noreferrer"
                   className="text-black hover:text-grey-400 mx-4"
                 >
-                  <FontAwesomeIcon icon={faLinkedin} size="2x" />
+                  <Linkedin size={24}/>
                 </a>
                 {/* Add more social icons as needed */}
               </div>

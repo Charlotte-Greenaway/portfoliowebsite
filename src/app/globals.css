@@ -1,88 +1,91 @@
 @tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-
+  @tailwind components;
+  @tailwind utilities;
+  
 
 .relative.w-full.overflow-visible{
-    width:fit-content;
-    margin:auto
+  width:fit-content;
+  margin:auto
 }
 .onHover {
-    transition: transform 1s ease; /* Apply transition to the transform property */
-  }
-  
-  .onHover:hover {
-    transform: scale(1.05); /* Scale on hover */
-  }
+  transition: transform 1s ease; /* Apply transition to the transform property */
+}
+
+.onHover:hover {
+  transform: scale(1.05); /* Scale on hover */
+}
 /*make item fit content width*/
 .fit-content{
-    width:fit-content
+  width:fit-content
 }
 
 
 /*skills page*/
 .outlineskill {
-    padding:0 2rem;
-    width: 17rem;
-    display: flex;
-    flex-direction: column;
-  }
+  padding:0 2rem;
+  width: 17rem;
+  display: flex;
+  flex-direction: column;
+}
 .skillscontainer {
-    flex-wrap: wrap;
-    display: flex;
-    flex-direction: row;
-    font-family: "Poppins",Sans-serif;
-    justify-content: center;
-    overflow-x: hidden;
-    max-width:100%
-  }
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  font-family: "Poppins",Sans-serif;
+  justify-content: center;
+  overflow-x: hidden;
+  max-width:100%
+}
 .outlineskill p{
-    border-left: 1px solid rgb(133, 132, 132);
-    padding-left: 5%;
-    font-family: "Courier New", monospace;
+  border-left: 1px solid rgb(133, 132, 132);
+  padding-left: 5%;
+  font-family: "Courier New", monospace;
 }
 .tagtext{
-    margin-left: 1em;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-family: "Courier New", monospace;
+  margin-left: 1em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: "Courier New", monospace;
 } 
 
 .skillscontainer h4{
-    background-image: linear-gradient(transparent 50%, #8FC1E3 70%);
-    width: fit-content;
-    margin: 1em 0;
-    display: inline;
+  background-image: linear-gradient(transparent 50%, #8FC1E3 70%);
+  width: fit-content;
+  margin: 1em 0;
+  display: inline;
 }
 .skillshead{
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 
 .svg-fill {
-  fill: #000000; /* Default fill color */
-  transition: all 0.5s ease;
+fill: #000000; /* Default fill color */
+transition: all 0.5s ease;
 }
 .hover-container:hover .svg-fill {
-  fill: #FFFFFF; /* Fill color on hover */
-  transition: all 0.5s ease;
+fill: #FFFFFF; /* Fill color on hover */
+transition: all 0.5s ease;
 }
 
 .grid-columns{
-  display: grid;
-  grid-template-columns: 1fr;
+display: grid;
+grid-template-columns: 1fr;
 }
 
 @media (min-width: 640px) {
-  .grid-columns{
-    grid-template-columns: 1fr 1fr;
-  }
+.grid-columns{
+  grid-template-columns: 1fr 1fr;
+}
 }
 
 @media (min-width: 1024px) {
-  .grid-columns{
-    grid-template-columns: 1fr 1fr 1fr;
-  }
+.grid-columns{
+  grid-template-columns: 1fr 1fr 1fr;
+}
+}
+
+html {
+  scroll-behavior: smooth;
 }
