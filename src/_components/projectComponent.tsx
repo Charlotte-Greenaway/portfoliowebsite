@@ -23,7 +23,7 @@ const ProjectComponent: React.FC<ProjectComponentProps> = ({
 }) => {
   return (
     <>
-      <Card className="py-4  w-full min-w-[250px] m-3 onHover">
+      <Card className="py-4  w-full min-w-[250px] onHover">
         <a href={link} target="_blank">
           <CardHeader className="pb-0 pt-2 px-4 flex-col items-start">
             <p className="text-tiny uppercase font-bold fit-content mx-auto">
