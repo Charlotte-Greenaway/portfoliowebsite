@@ -7,7 +7,7 @@ export default function Home() {
     <main>
       <div className="banner mx-auto fit-content my-10 px-1 md:px-0">
         <h1 className="mx-auto fit-content text-4xl font-bold text-center">
-          Dev Ops Executive
+          Software Engineer
         </h1>
         <h2 className="mx-auto fit-content text-2xl font-bold m-1 text-center">
           Driven to learn and create beautiful designs.
