@@ -16,6 +16,13 @@ const Projects = () => {
       languages:["astro","tailwindcss"]
     },
     {
+      title:"Github Stats",
+      logo: "/images/github-stats.png",
+      summary:"Github stats dashboard built in flask using tailwind css and chart.js",
+      link:"https://github-stats.charlotte-greenaway.com/",
+      languages:["flask","tailwindcss"]
+    },
+    {
       title: "Autohub",
       logo: "/images/autohub.png",
       summary:"Dealer Management System, built with Next.js and SQLite",
