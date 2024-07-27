@@ -50,7 +50,7 @@ export default function Home() {
               <h3 className="text-lg font-semibold mb-4">
                 Contact Information
               </h3>
-              <p>Email: charlottegreenaway654@gmail.com</p>
+              <p>Email: me@charlotte-greenaway.com</p>
               <p>Phone: 07802 767605</p>
             </div>
 
