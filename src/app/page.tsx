@@ -21,7 +21,7 @@ export default function Home() {
           </h2>
           <p className="text-white text-center text-2xl">
             {" "}
-            Devon-based dev ops executive skilled in React, Node.js, and
+            Devon-based software engineer skilled in React, Node.js, and
             Next.js. Proficient with Tailwind CSS, Bootstrap, postgres, noSQL databases and
             exploring automation/testing with Playwright in Node.js. Eager to contribute
             and passionate about crafting seamless web experiences.
@@ -32,9 +32,9 @@ export default function Home() {
           <Skills />
         </div>
         <div className="max-w-[1000px] w-11/12 md:w-3/4 mx-auto" id="projects">
-          <h1 className="text-white text-3xl text-center p-10 font-bold">
+          <h2 className="text-white text-3xl text-center p-10 font-bold">
             Projects
-          </h1>
+          </h2>
           <Projects />
         </div>
         <div
@@ -63,6 +63,7 @@ export default function Home() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-black hover:text-grey-400 mx-4"
+                  aria-label="GitHub"
                 >
                   <Github size={24}/>
                 </a>
@@ -71,6 +72,7 @@ export default function Home() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-black hover:text-grey-400 mx-4"
+                  aria-label="LinkedIn"
                 >
                   <Linkedin size={24}/>
                 </a>

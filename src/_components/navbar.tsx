@@ -11,7 +11,9 @@ export default function NavBar() {
   ]
   return (
     <header className="flex h-20 w-full items-center justify-between bg-white px-4 md:px-6 max-w-5xl mx-auto">
-      <Link href="/" className="text-lg font-bold" prefetch={false}>
+      <Link href="/" className="text-lg font-bold" prefetch={false} aria-label="
+        Go to top of page
+      ">
         CHARLOTTE GREENAWAY
       </Link>
       <Sheet>
@@ -29,6 +31,7 @@ export default function NavBar() {
                 href={item.href}
                 className="text-lg font-medium"
                 prefetch={false}
+                aria-label={`Go to ${item.title}`}
               >
                 {item.title}
               </Link>
@@ -44,6 +47,7 @@ export default function NavBar() {
             className="hover:text-gray-800"
             prefetch={false}
             key={item.title}
+            aria-label={`Go to ${item.title}`}
           >
             {item.title}
           </Link>

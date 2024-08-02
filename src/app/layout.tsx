@@ -5,8 +5,8 @@ import TopButton from '@/_components/TopButton';
 
 
 export const metadata: Metadata = {
-  title: 'Charlotte Greenaway',
-  description: 'Junior software developer in Devon',
+  title: 'Charlotte Greenaway - Software Developer',
+  description: 'Software developer in Devon - experienced in React, Node.js, and Next.js.',
 }
 
 export default function RootLayout({
