@@ -23,13 +23,6 @@ const Projects = () => {
       languages:["flask","tailwindcss"]
     },
     {
-      title: "Autohub",
-      logo: "/images/autohub.png",
-      summary:"Dealer Management System, built with Next.js and SQLite",
-      link:"https://github.com/Charlotte-Greenaway/Autohub",
-      languages:["nextjs","tailwindcss", "sqlite"]
-    },
-    {
       title: "Dash Dish",
       logo: "/images/dashdish.png",
       summary:"An AI powered cookbook, built with Next.js and OpenAI's GPT-3",
@@ -42,13 +35,6 @@ const Projects = () => {
       summary:"A 3D trip into space, an experiment with aframe and react",
       link:"https://solartraveller.charlotte-greenaway.com",
       languages:["react","aframe"]
-    },
-    {
-      title: "Snap Talk",
-      logo: "/images/snaptalk.png",
-      summary:"Instant messaging service utilising websockets and mongoDB",
-      link:"https://github.com/Charlotte-Greenaway/SnapTalk",
-      languages:["react","nodejs", "mongodb"]
     },
     {
       title: "First Look",

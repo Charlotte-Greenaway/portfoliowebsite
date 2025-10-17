@@ -21,10 +21,9 @@ export default function Home() {
           </h2>
           <p className="text-white text-center text-2xl">
             {" "}
-            Devon-based software engineer skilled in React, Node.js, and
-            Next.js. Proficient with Tailwind CSS, Bootstrap, postgres, noSQL databases and
-            exploring automation/testing with Playwright in Node.js. Eager to contribute
-            and passionate about crafting seamless web experiences.
+            Devon-based Software Engineer skilled in PHP, Python, and JavaScript, 
+            focused on building smooth, intuitive, and user-friendly web experiences. 
+            Passionate about turning ideas into functional, polished applications.
           </p>
         </div>
 
