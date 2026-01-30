@@ -26,7 +26,7 @@ const Projects = () => {
       title: "Dash Dish",
       logo: "/images/dashdish.png",
       summary:"An AI powered cookbook, built with Next.js and OpenAI's GPT-3",
-      link:"https://dashdish.co.uk",
+      link:"https://github.com/Charlotte-Greenaway/DashDish",
       languages:["nextjs","openai","mongodb","tailwindcss"]
     },
     {
