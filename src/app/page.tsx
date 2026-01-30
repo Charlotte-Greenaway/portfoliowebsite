@@ -82,7 +82,7 @@ export default function Home() {
 
           {/* Copyright */}
           <div className="mt-8 text-sm text-gray-200">
-            &copy; 2024 Charlotte Greenaway. All rights reserved.
+            &copy; {new Date().getFullYear()} Charlotte Greenaway. All rights reserved.
           </div>
         </div>
       </div>
